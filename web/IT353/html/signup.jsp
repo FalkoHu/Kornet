@@ -14,13 +14,13 @@
     <div class="tocentersignup">
         <h1>Sign Up</h1>
         <form action="mainpage.jsp">
-            <input type="text" id="fname" placeholder="Firstname">
-            <input type="text" id="lname" placeholder="Lastname"><br>
-            <input type="text" id="signemail" placeholder="Email"><br>
-            <input type="text" id="username" placeholder="Username"><br>
+            <input type="text" id="fname" placeholder="Firstname" name="fname" value="">
+            <input type="text" id="lname" placeholder="Lastname" name="lname" value=""><br>
+            <input type="text" id="signemail" placeholder="Email" name="email" value=""><br>
+            <input type="text" id="username" placeholder="Username" name="username" value=""><br>
             <input type="password" id="signpassword" placeholder="Password"><br>
+            <button id="signUpButton">Sign Up</button>
         </form>
-        <button id="signUpButton">Sign Up</button>
     </div>    
     
     <div class="footer">   

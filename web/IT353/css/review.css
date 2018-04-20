@@ -11,31 +11,38 @@ body{
     }
     
 #restName{
-    top: 80%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    color: black;
+    font-size: 25px;
+    color: darkred;
     position: absolute;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    padding-bottom: 5px;
     }
 
 #reviewRes{
-    top: 85%;
+    top: 95%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     color: black;
     position: absolute;
-    border: 1px solid black;
+    border: 1px solid darkred;
     padding: 5px;
+    margin-bottom: 5px;
 }
 
+#reviewRes>p{
+    
+}
 
 
 /* ------------------------------------------------------------------------------------- */

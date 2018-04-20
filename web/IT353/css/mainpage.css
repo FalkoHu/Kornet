@@ -6,7 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Lato', sans-serif;
-    color: lightgray;
+    color: black;
     font-size: 20px;
     }
 #centerMain{
@@ -69,21 +69,21 @@ body{
 .restaurantDiv{
     display: inline-block;
     width: 1150px;
-    height: 350px;
+    height: 373px;
     border: 1px solid;
     margin: 10px 20px 10px 20px;
     text-align: left;
 }
 
-.review{
-    margin-left: 5px;
-    border: 1px solid darkred;
+.reviews{
+    padding-left: 5px;
 }
 
 img{
     float: left;
     width: 300px;
-    height: 350px;
+    height: 373px;
+    padding-right: 5px;
 }
 /* ------------------------------------------------------------------------------------- */
 /* ---------------------------------LOGOUT BUTTON---------------------------------------- */
@@ -119,6 +119,7 @@ img{
         background-color: black;
         text-align: center;
         font-size: 15px;
+        margin-top: 10px;
     }
 
     .footer>p{

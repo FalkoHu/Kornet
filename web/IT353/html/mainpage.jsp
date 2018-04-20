@@ -11,7 +11,7 @@
     <script src="../javascript/main.js"></script>
 </head>
 <body>
-    <h2> Hello <%= request.getParameter("username") %> </h2>
+    <h2> Welcome <%= request.getParameter("username") %> </h2>
     <button id="logout">Logout</button>
 
     <div id="centerMain">

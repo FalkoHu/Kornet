@@ -16,7 +16,7 @@ $(document).ready(function(){
         var password = $("#signpassword").val();
         var email = $("#signemail").val();
 
-        if($("#fname").val() && $("#lname").val() && $("#signemail").val() && $("#signusername").val() && $("#signpassword").val()){
+        if($("#fname").val() && $("#lname").val() && $("#signemail").val() && $("#username").val() && $("#signpassword").val()){
             if(password.length >= 6 && password.length <= 20){
                 if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)){
                     window.location.href = "mainpage.jsp";
@@ -111,7 +111,7 @@ function search(){
                     var city = $("<p class='imgText'></p>");
                     var zip = $("<p class='imgText'></p>");
                     var input = $("<div class='reviews'></div>");
-                    var btn = $("<button class='b'>hej</button>");
+                    var btn = $("<input type='submit' value='Submit'>");
 
                     
                     name.html("<input type='text' name='name' value='"+ restaurantArray[i].name+"'>");
