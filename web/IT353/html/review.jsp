@@ -10,9 +10,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <link rel="stylesheet" type="text/css" media="screen" href="../css/review.css" />
+        <script src="../javascript/main.js"></script>
     </head>
+    
+    
+    
     <body>
-        <h1>Hello World!</h1>
-         <h2> Hello <%= request.getParameter("name") %> </h2>
+        <div id="restName"><%= request.getParameter("name") %> </div>
+        <div id="reviewRes"> <%= request.getParameter("review") %> </div>
     </body>
 </html>

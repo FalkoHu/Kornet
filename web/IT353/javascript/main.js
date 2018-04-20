@@ -51,6 +51,7 @@ $("#login").click(function(){
 //------------------------LOGIN PAGE INPUTS AND BUTTON----------------------------------------------
 function login2(){
 
+    var usernamess = $("#loginUsername").val();
     var password = $("#loginPassword").val();
     if($("#loginUsername").val() && $("#loginPassword").val()){
         if(password.length >= 6 && password.length <= 20){
@@ -109,17 +110,16 @@ function search(){
                     var address = $("<p class='imgText'></p>");
                     var city = $("<p class='imgText'></p>");
                     var zip = $("<p class='imgText'></p>");
-                    var input = $("<textarea class='review' placeholder='Enter your review here' rows='10' cols='50'>");
-//                    var btn = $("<input type='submit' class='b' value='submit'>");
-                    var btn2 = $("<button class='b'>hej</button>");
-//                    var form = $("<form action='login.jsp'></form>");
+                    var input = $("<div class='reviews'></div>");
+                    var btn = $("<button class='b'>hej</button>");
+
                     
                     name.html("<input type='text' name='name' value='"+ restaurantArray[i].name+"'>");
                     phone.html("<b>Phone number:</b> " + restaurantArray[i].phone);
                     address.html("<b>Address:</b> " + restaurantArray[i].address );
                     city.html("<b>Zip:</b> "+restaurantArray[i].city);
                     zip.html("<b>City:</b> "+restaurantArray[i].postal_code);
-                    
+                    input.html("<textarea placeholder='Enter your review here' name='review' rows='10' cols='50'>");
                                      
                     restaurantDiv.append(img);
                     restaurantDiv.append(form);
@@ -128,9 +128,8 @@ function search(){
                     form.append(address);
                     form.append(zip);
                     form.append(city);
-//                   restaurantDiv.append(form);
                     form.append(input);
-                    form.append(btn2);
+                    form.append(btn);
                     $("#middle").append(restaurantDiv);
 
                  }
@@ -151,10 +150,10 @@ function search(){
 //            }
 //        }    
         
-        $(".b").click(function(){
-//            reviews();
-              alert("Hello");
-        });
+//        $(".b").click(function(){
+////            reviews();
+//              alert("Hello");
+//        });
 
 
 

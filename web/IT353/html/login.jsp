@@ -18,6 +18,7 @@
         <button id="loginButton">Login</button>
         </form>
     </div>
+    <script> $("#logiUsername").val()</script>
     <%  
 //        String name = request.getParameter("username");
 //        session.setAttribute("username", name);
