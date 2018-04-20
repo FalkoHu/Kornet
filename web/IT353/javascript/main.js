@@ -105,7 +105,7 @@ function search(){
                     var city = $("<p class='imgText'></p>");
                     var zip = $("<p class='imgText'></p>");
                     var input = $("<textarea class='review' placeholder='Enter your review here' rows='10' cols='50'>");
-                    var btn = $("<input type='submit' class='reviewBtn' value='submit'");
+                    var btn = $("<input type='submit' class='reviewBtn' value='submit'>");
                     
                     name.html("<b>Name:</b> " + restaurantArray[i].name );
                     phone.html("<b>Phone number:</b> " + restaurantArray[i].phone);
