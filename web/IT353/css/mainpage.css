@@ -5,6 +5,9 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: lightgray;
+    font-size: 20px;
     }
 #centerMain{
     top: 50%;
@@ -13,6 +16,7 @@ body{
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
     color: white;
     position: absolute;
     }
@@ -114,6 +118,7 @@ img{
         height: 59px;
         background-color: black;
         text-align: center;
+        font-size: 15px;
     }
 
     .footer>p{

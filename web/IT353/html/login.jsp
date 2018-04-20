@@ -13,12 +13,15 @@
     <div class="tocenterlogin">
         <h1>Login</h1>
         <form action="mainpage.jsp">
-            <input type="text" id="loginUsername" placeholder="Username"><br>
-            <input type="password" id="loginPassword" placeholder="Password"><br>
-        </form>    
-            <button id="loginButton">Login</button>
+        <input type="text" id="loginUsername" placeholder="Username" name="username"><br>
+        <input type="password" id="loginPassword" placeholder="Password" name="logPassword"><br>
+        <button id="loginButton">Login</button>
+        </form>
     </div>
-
+    <%  
+//        String name = request.getParameter("username");
+//        session.setAttribute("username", name);
+    %>
     <div class="footer">   
         <p>Contact Us</p>
         <p>About Us</p>
