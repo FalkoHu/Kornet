@@ -1,6 +1,6 @@
 body{
     background-image: url("../img/Kornet.png");
-    height: 20vw;
+    height: 15vw;
     width: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -8,22 +8,22 @@ body{
     font-family: 'Lato', sans-serif;
     color: lightgray;
     font-size: 20px;
-    }
-    
+}
+
 #restName{
-    top: 60%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color: darkred;
     position: absolute;
     font-weight: bold;
     margin-bottom: 5px; 
     padding-bottom: 5px;
-    }
+}
 
 #reviewRes{
     top: 95%;
@@ -39,11 +39,6 @@ body{
     padding: 5px;
     margin-bottom: 5px;
 }
-
-#reviewRes>p{
-    
-}
-
 
 /* ------------------------------------------------------------------------------------- */
 /* ---------------------------------LOGOUT BUTTON---------------------------------------- */
@@ -69,28 +64,28 @@ body{
 }
 
 
-    /*---------------------FOOTER--------------------------------------*/
-    .footer{
-        position: fixed;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-        height: 59px;
-        background-color: black;
-        text-align: center;
-        font-size: 15px;
-    }
+/*---------------------FOOTER--------------------------------------*/
+.footer{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 59px;
+    background-color: black;
+    text-align: center;
+    font-size: 15px;
+}
 
-    .footer>p{
-        border: 1px solid white;
-        padding: 3px;
-        display:inline-block;
-        color: white;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .footer>p:hover{
-        background-color: white;
-        color: darkred;
-        cursor: pointer;
-    }
+.footer>p{
+    border: 1px solid white;
+    padding: 3px;
+    display:inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.footer>p:hover{
+    background-color: white;
+    color: darkred;
+    cursor: pointer;
+}

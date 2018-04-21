@@ -111,14 +111,14 @@ function search(){
                     var city = $("<p class='imgText'></p>");
                     var zip = $("<p class='imgText'></p>");
                     var input = $("<div class='reviews'></div>");
-                    var btn = $("<input type='submit' value='Submit'>");
+                    var btn = $("<input class='submit' type='submit' value='Submit'>");
 
                     
                     name.html("<input type='text' name='name' value='"+ restaurantArray[i].name+"'>");
                     phone.html("<b>Phone number:</b> " + restaurantArray[i].phone);
                     address.html("<b>Address:</b> " + restaurantArray[i].address );
-                    city.html("<b>Zip:</b> "+restaurantArray[i].city);
-                    zip.html("<b>City:</b> "+restaurantArray[i].postal_code);
+                    city.html("<b>Zip:</b> "+restaurantArray[i].postal_code);
+                    zip.html("<b>City:</b> "+restaurantArray[i].city);
                     input.html("<textarea placeholder='Enter your review here' name='review' rows='10' cols='50'>");
                                      
                     restaurantDiv.append(img);

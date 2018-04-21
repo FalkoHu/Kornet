@@ -9,13 +9,13 @@ body{
 /*---------------------TEXT INPUTS--------------------*/
 .tocentersignup{
     position: absolute;
-    top: 48%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     font-family: 'Lato', sans-serif;
-    color: gainsboro;
+    color: white;
 }
 
 input[type=text]{
@@ -49,6 +49,16 @@ input[type=password]{
 
 #lname{
     width: 147px;
+}
+/*--------------------------------PLACEHOLDER STYLE----------------------------- */ 
+::-webkit-input-placeholder { 
+  color: darkred;
+}
+::-moz-placeholder {
+  color: darkred;
+}
+:-ms-input-placeholder {
+  color: darkred;
 }
 
 /*---------------------BUTTON--------------------*/

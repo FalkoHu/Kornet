@@ -43,6 +43,16 @@ input[type=password]{
     font-family: 'Lato', sans-serif;
     border-radius: 4px;
 }
+/*--------------------------------PLACEHOLDER STYLE----------------------------- */ 
+::-webkit-input-placeholder { 
+  color: darkred;
+}
+::-moz-placeholder {
+  color: darkred;
+}
+:-ms-input-placeholder {
+  color: darkred;
+}
 /*-------------------BUTTON---------------------------*/
 #loginButton{
     cursor: pointer;
