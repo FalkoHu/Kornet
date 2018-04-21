@@ -28,7 +28,11 @@
             <p>Site Map</p>
         </div>
 </body>
-
+    <% 
+        String user = request.getParameter("username");
+        session.setAttribute("username", user);
+    
+    %>
 </html>
 
 

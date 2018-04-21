@@ -9,7 +9,7 @@ body{
     color: lightgray;
     font-size: 20px;
 }
-
+/*-------------------------------REST NAME AND REVIEW---------------------- */
 #restName{
     top: 55%;
     left: 50%;
@@ -38,6 +38,19 @@ body{
     border: 1px solid darkred;
     padding: 5px;
     margin-bottom: 5px;
+}
+/*--------------------USERNAME AND DATE ON SAME LINE----------- */
+.user{
+    color: darkred;
+    float: left;
+}
+.date{
+    color: darkred;
+    float: right;
+}
+
+.userDate{
+    line-height: 10%;
 }
 
 /* ------------------------------------------------------------------------------------- */
