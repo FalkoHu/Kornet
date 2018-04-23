@@ -12,17 +12,13 @@
     <body>
         <div class="tocenterlogin">
             <h1>Login</h1>
-            <form action="mainpage.jsp">
+            <form action="../javascript/mainpage.js">
                 <input type="text" id="loginUsername" placeholder="Username" name="username"><br>
                 <input type="password" id="loginPassword" placeholder="Password" name="logPassword"><br>
                 <button id="loginButton">Login</button>
             </form>
         </div>
-        <script> $("#logiUsername").val()</script>
-        <%
-    //        String name = request.getParameter("username");
-    //        session.setAttribute("username", name);
-%>
+
         <div class="footer">   
             <p>Contact Us</p>
             <p>About Us</p>
