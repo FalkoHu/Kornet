@@ -107,9 +107,9 @@ $(document).ready(function () {
                         var zip = $("<p class='imgText'></p>");
                         var input = $("<div class='reviews'></div>");
                         var btn = $("<input class='submit' type='submit' value='Submit'>");
+//                        var readReview = $("<button id='readBtn'>Read Reveiws</button>");
 
-
-                        name.html("<input type='text' name='name' value='" + restaurantArray[i].name + "'>");
+                        name.html("<b>Name:</b> <input id='restInput' type='text' value='" + restaurantArray[i].name + "' readonly>");
                         phone.html("<b>Phone number:</b> " + restaurantArray[i].phone);
                         address.html("<b>Address:</b> " + restaurantArray[i].address);
                         city.html("<b>Zip:</b> " + restaurantArray[i].postal_code);
@@ -126,7 +126,11 @@ $(document).ready(function () {
                         form.append(input);
                         form.append(btn);
                         $("#middle").append(restaurantDiv);
-
+                        
+//                            $("#readBtn").click(function () {
+//                               window.location.href = "../html/review.jsp?city="+restaurantArray[i].name;
+//                            });
+//                        
                     }
                 })
     }

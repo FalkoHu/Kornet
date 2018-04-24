@@ -19,7 +19,7 @@
 
     <body>
         <button id="logout">Logout</button>
-            <div id="restName"><%= request.getParameter("name")%> </div>
+            <div id="restName"><%= request.getParameter("restaurant")%> </div>
             <div id="reviewRes">
                 <div class="userDate">
                     <p class="user"> Username: <%= session.getAttribute("username")%>
