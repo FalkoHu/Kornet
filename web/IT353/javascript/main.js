@@ -109,7 +109,7 @@ $(document).ready(function () {
                         var btn = $("<input class='submit' type='submit' value='Submit'>");
 //                        var readReview = $("<button id='readBtn'>Read Reveiws</button>");
 
-                        name.html("<b>Name:</b> <input id='restInput' type='text' value='" + restaurantArray[i].name + "' readonly>");
+                        name.html("<b>Name:</b> <input id='restInput' type='text' name='restaurant' value='" + restaurantArray[i].name + "' readonly>");
                         phone.html("<b>Phone number:</b> " + restaurantArray[i].phone);
                         address.html("<b>Address:</b> " + restaurantArray[i].address);
                         city.html("<b>Zip:</b> " + restaurantArray[i].postal_code);
