@@ -12,28 +12,28 @@ $(document).ready(function () {
 
 
 //--------------------THE SIGN UP PAGE TEXT INPUTS AND BUTTON---------------------------
-    function signup2() {
-        var password = $("#signpassword").val();
-        var email = $("#signemail").val();
-
-        if ($("#fname").val() && $("#lname").val() && $("#signemail").val() && $("#username").val() && $("#signpassword").val()) {
-            if (password.length >= 6 && password.length <= 20) {
-                if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-                    window.location.href = "mainpage.jsp";
-                } else {
-                    alert("Please enter a valid email")
-                }
-            } else {
-                alert("Password must be between 6 and 20 characters")
-            }
-        } else {
-            alert("Please fill out all fields")
-        }
-    }
-
-    $("#signUpButton").click(function () {
-        signup2();
-    });
+//    function signup2() {
+//        var password = $("#signpassword").val();
+//        var email = $("#signemail").val();
+//
+//        if ($("#fname").val() && $("#lname").val() && $("#signemail").val() && $("#username").val() && $("#signpassword").val()) {
+//            if (password.length >= 6 && password.length <= 20) {
+//                if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+//                    window.location.href = "mainpage.jsp";
+//                } else {
+//                    alert("Please enter a valid email")
+//                }
+//            } else {
+//                alert("Password must be between 6 and 20 characters")
+//            }
+//        } else {
+//            alert("Please fill out all fields")
+//        }
+//    }
+//
+//    $("#signUpButton").click(function () {
+//        signup2();
+//    });
 //----------------------END OF SIGNUP----------------------------------------------------
 
 //----------------------TO GET TO LOGIN PAGE--------------------------------------------------------
@@ -46,25 +46,25 @@ $(document).ready(function () {
         login();
     });
 //------------------------LOGIN PAGE INPUTS AND BUTTON----------------------------------------------
-    function login2() {
-
-        var usernamess = $("#loginUsername").val();
-        var password = $("#loginPassword").val();
-        if ($("#loginUsername").val() && $("#loginPassword").val()) {
-            if (password.length >= 6 && password.length <= 20) {
-                window.location.href = "mainpage.jsp";
-            } else {
-                alert("Invalid password");
-//            window.location.href = "login.jsp";
-            }
-        } else {
-            alert("Please fill out both fields")
-        }
-    }
-
-    $("#loginButton").click(function () {
-        login2();
-    });
+//    function login2() {
+//
+//        var usernamess = $("#loginUsername").val();
+//        var password = $("#loginPassword").val();
+//        if ($("#loginUsername").val() && $("#loginPassword").val()) {
+//            if (password.length >= 6 && password.length <= 20) {
+//                window.location.href = "mainpage.jsp";
+//            } else {
+//                alert("Invalid password");
+////            window.location.href = "login.jsp";
+//            }
+//        } else {
+//            alert("Please fill out both fields")
+//        }
+//    }
+//
+//    $("#loginButton").click(function () {
+//        login2();
+//    });
 
 
 //----------------------------MAIN PAGE STARTS HERE---------------------------------------
@@ -93,8 +93,6 @@ $(document).ready(function () {
 
                     for (var i = 0; i < restaurantArray.length; i++) {
 
-//                     var button = [i];
-
                         var restaurantDiv = $("<div class='restaurantDiv'></div>");
 
                         var img = $("<img></img>");
@@ -107,7 +105,7 @@ $(document).ready(function () {
                         var zip = $("<p class='imgText'></p>");
                         var input = $("<div class='reviews'></div>");
                         var btn = $("<input class='submit' type='submit' value='Submit'>");
-//                        var readReview = $("<button id='readBtn'>Read Reveiws</button>");
+
 
                         name.html("<b>Name:</b> <input id='restInput' type='text' name='restaurant' value='" + restaurantArray[i].name + "' readonly>");
                         phone.html("<b>Phone number:</b> " + restaurantArray[i].phone);

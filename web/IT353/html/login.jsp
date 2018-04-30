@@ -12,7 +12,7 @@
     <body>
         <div class="tocenterlogin">
             <h1>Login</h1>
-            <form action="../javascript/mainpage.js">
+            <form action="mainpage.jsp">
                 <input type="text" id="loginUsername" placeholder="Username" name="username"><br>
                 <input type="password" id="loginPassword" placeholder="Password" name="logPassword"><br>
                 <button id="loginButton">Login</button>
