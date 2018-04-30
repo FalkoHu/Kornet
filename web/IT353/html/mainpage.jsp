@@ -11,31 +11,18 @@
         <script src="../javascript/main.js"></script>
     </head>
     <body>
-        <h2> Welcome <%= request.getParameter("username")%> </h2>
+
+        <h1> Welcome <%= session.getAttribute("username")%> </h1>
         <button id="logout">Logout</button>
 
         <div id="centerMain">
-            <h1 id="h1MainPage">MAIN PAGE</h1>
+            <h1 id="h1MainPage">FIND A RESTAURANT</h1>
             <input type="text" id="keyword" placeholder="Enter in a city">
             <button id="searchButton">Search</button>
 
         </div>
         <div id="middle"></div>
     </body>
-    <%
-        String user = request.getParameter("username");
-        session.setAttribute("username", user);
-
-        String fname = request.getParameter("fname");
-        String lname = request.getParameter("lname");
-        String email = request.getParameter("email");
-
-        session.setAttribute("fname", fname);
-        session.setAttribute("lname", lname);
-        session.setAttribute("email", email);
-
-
-    %>
 </html>
 
 

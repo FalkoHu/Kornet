@@ -1,43 +1,41 @@
-body{
+
+body, html{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+}
+#background{
+    height: 70%;
     background-image: url("../img/Kornet.png");
-    height: 15vw;
-    width: 100vh;
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Lato', sans-serif;
-    color: lightgray;
-    font-size: 20px;
+    position: relative;
+    margin-bottom: 5px;
 }
 /*-------------------------------REST NAME AND REVIEW---------------------- */
 #restName{
-    top: 55%;
+    text-align: center;
+    position: absolute;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-size: 40px;
     color: white;
-    position: absolute;
+    font-size: 40px;
     font-weight: bold;
-    margin-bottom: 5px; 
-    padding-bottom: 5px;
 }
 
 #reviewRes{
-    top: 95%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    margin: auto;
+    width: 50%;
     font-family: 'Lato', sans-serif;
     font-size: 15px;
     color: black;
-    position: absolute;
     border: 1px solid darkred;
     padding: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 /*--------------------USERNAME AND DATE ON SAME LINE----------- */
 .user{
@@ -48,15 +46,10 @@ body{
     color: darkred;
     float: right;
 }
-
-.userDate{
-    line-height: 10%;
-}
-
-/* ------------------------------------------------------------------------------------- */
 /* ---------------------------------LOGOUT BUTTON---------------------------------------- */
 #logout{
-    position: absolute;
+/*    position: absolute;*/
+    float: right;
     right: 10px;
     top: 5px;
     cursor: pointer;
@@ -66,7 +59,6 @@ body{
     color: darkgray;
     font: bold;
     font-size: 20px;
-
     border: 2px solid darkgray;   
     border-radius: 8px;   
 } 
@@ -76,29 +68,22 @@ body{
     color: darkred; 
 }
 
-
-/*---------------------FOOTER--------------------------------------*/
-.footer{
-    position: fixed;
-    width: 100%;
-    left: 0;
-    bottom: 0;
-    height: 59px;
-    background-color: black;
-    text-align: center;
-    font-size: 15px;
-}
-
-.footer>p{
-    border: 1px solid white;
-    padding: 3px;
-    display:inline-block;
-    color: white;
-    margin-left: 20px;
-    margin-right: 20px;
-}
-.footer>p:hover{
-    background-color: white;
-    color: darkred;
+#back{
+    float: right;
+    top: 5px;
     cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 10px;
+    background-color: white;
+    color: darkgray;
+    font: bold;
+    font-size: 20px;
+    border: 2px solid darkgray;   
+    border-radius: 8px;  
+    margin-right: 5px;
+}
+
+#back:hover{
+    box-shadow: 0 10px 20px darkgrey;
+    color: darkred; 
 }

@@ -13,7 +13,7 @@
     <body>
         <div class="tocentersignup">
             <h1>Sign Up</h1>
-            <form action="mainpage.jsp">
+            <form action="setAttribute.jsp">
                 <input type="text" id="fname" placeholder="Firstname" name="fname" value="">
                 <input type="text" id="lname" placeholder="Lastname" name="lname" value=""><br>
                 <input type="text" id="signemail" placeholder="Email" name="email" value=""><br>

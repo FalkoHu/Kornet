@@ -87,13 +87,10 @@ $(document).ready(function () {
         search();
     });
 
-//-----------------------PROFILE PAGE-----------------------       
 
-$("#profileButton").click(function (){
-    window.location.href="profile.jsp";
-});
-
-
+    $("#back").click(function () {
+        window.location.href = "mainpage.jsp";
+    });
 
 
 });
