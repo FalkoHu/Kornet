@@ -10,32 +10,6 @@ $(document).ready(function () {
         signup();
     });
 
-
-//--------------------THE SIGN UP PAGE TEXT INPUTS AND BUTTON---------------------------
-//    function signup2() {
-//        var password = $("#signpassword").val();
-//        var email = $("#signemail").val();
-//
-//        if ($("#fname").val() && $("#lname").val() && $("#signemail").val() && $("#username").val() && $("#signpassword").val()) {
-//            if (password.length >= 6 && password.length <= 20) {
-//                if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
-//                    window.location.href = "mainpage.jsp";
-//                } else {
-//                    alert("Please enter a valid email")
-//                }
-//            } else {
-//                alert("Password must be between 6 and 20 characters")
-//            }
-//        } else {
-//            alert("Please fill out all fields")
-//        }
-//    }
-//
-//    $("#signUpButton").click(function () {
-//        signup2();
-//    });
-//----------------------END OF SIGNUP----------------------------------------------------
-
 //----------------------TO GET TO LOGIN PAGE--------------------------------------------------------
     function login() {
         window.location.href = "html/login.jsp";
@@ -45,27 +19,6 @@ $(document).ready(function () {
     $("#login").click(function () {
         login();
     });
-//------------------------LOGIN PAGE INPUTS AND BUTTON----------------------------------------------
-//    function login2() {
-//
-//        var usernamess = $("#loginUsername").val();
-//        var password = $("#loginPassword").val();
-//        if ($("#loginUsername").val() && $("#loginPassword").val()) {
-//            if (password.length >= 6 && password.length <= 20) {
-//                window.location.href = "mainpage.jsp";
-//            } else {
-//                alert("Invalid password");
-////            window.location.href = "login.jsp";
-//            }
-//        } else {
-//            alert("Please fill out both fields")
-//        }
-//    }
-//
-//    $("#loginButton").click(function () {
-//        login2();
-//    });
-
 
 //----------------------------MAIN PAGE STARTS HERE---------------------------------------
     function logout() {
@@ -124,11 +77,6 @@ $(document).ready(function () {
                         form.append(input);
                         form.append(btn);
                         $("#middle").append(restaurantDiv);
-                        
-//                            $("#readBtn").click(function () {
-//                               window.location.href = "../html/review.jsp?city="+restaurantArray[i].name;
-//                            });
-//                        
                     }
                 })
     }
@@ -139,19 +87,11 @@ $(document).ready(function () {
         search();
     });
 
-//-----------------------REVIEW PAGE-----------------------       
+//-----------------------PROFILE PAGE-----------------------       
 
-//        function reviews(){
-//            if(restaurantArray[i] == button[i]){
-//                window.location.href= "login.jsp";
-//            }
-//        }    
-
-//        $(".b").click(function(){
-////            reviews();
-//              alert("Hello");
-//        });
-
+$("#profileButton").click(function (){
+    window.location.href="profile.jsp";
+});
 
 
 

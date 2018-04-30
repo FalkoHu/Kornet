@@ -1,8 +1,3 @@
-<%-- 
-    Document   : review
-    Created on : Apr 19, 2018, 8:20:06 PM
-    Author     : Falko
---%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -45,7 +40,7 @@
                 <div class="userDate">
                     <p class="user">Username: Jenny 
                         <p class="date">Date: 1/05/2018</p>
-                    </p>
+                </p>
                     <div style="clear: both;"></div>
                 </div>
                 <p>Ordered takeout from here a few weeks back. Food was ready for pickup on time. 
