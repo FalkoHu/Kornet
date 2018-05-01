@@ -93,6 +93,22 @@ $(document).ready(function () {
     });
 
 
+//-------------------------FOR THE STARS-----------------------------
+
+    $(function () {
+        $("input.rateyoid").each(function () {
+            var current_rating = $(this).val();
+
+            $(this).parent().rateYo({
+                starWidth: "18px",
+                halfStar: true,
+                rating: current_rating
+            });
+        });
+    });
+
+
+
 });
 
 

@@ -87,3 +87,8 @@ body, html{
     box-shadow: 0 10px 20px darkgrey;
     color: darkred; 
 }
+
+.rateYo{
+    float: right;
+    margin-left: 10px;
+}
